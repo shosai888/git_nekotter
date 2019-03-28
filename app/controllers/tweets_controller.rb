@@ -6,6 +6,9 @@ class TweetsController < ApplicationController
        @tweets = Tweet.all 
     end
     
+    def branch 
+    end 
+    
     def new
     end
     
