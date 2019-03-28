@@ -6,9 +6,6 @@ class TweetsController < ApplicationController
        @tweets = Tweet.all 
     end
     
-    def gitpractice
-    end
-    
     def new
     end
     
